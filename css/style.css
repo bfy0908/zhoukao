@@ -1,0 +1,130 @@
+body {
+  font-size: 0.12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #eeeeee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  line-height: 0.37rem;
+  background: #fff;
+  font-size: 0.15rem; }
+  .header ul {
+    position: relative; }
+    .header ul .headline {
+      text-align: center;
+      color: #474747; }
+    .header ul .back {
+      position: absolute;
+      left: 0;
+      top: 0; }
+    .header ul li .fa-angle-left {
+      margin-left: 0.08rem;
+      color: #45bfa5; }
+    .header ul li > span {
+      margin-left: 0.05rem;
+      color: #45bfa5; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll;
+  padding-bottom: 0.15rem; }
+  .section .main {
+    width: 100%;
+    height: 1.63rem;
+    background: url(../images/img2.jpg);
+    background-size: 100% auto;
+    text-align: center;
+    color: #fff;
+    position: relative; }
+    .section .main .thumbs {
+      position: absolute;
+      left: 0.13rem;
+      top: 0.07rem; }
+      .section .main .thumbs .fa-thumbs-o-up {
+        font-size: 0.18rem;
+        margin-right: 0.06rem; }
+    .section .main .fa-indent {
+      position: absolute;
+      right: 0.15rem;
+      top: 0.1rem;
+      font-size: 0.18rem; }
+    .section .main h3 {
+      margin-bottom: 0.08rem;
+      font-size: 0.14rem; }
+    .section .main > img {
+      width: 0.78rem;
+      height: 0.78rem;
+      margin-top: 0.15rem;
+      margin-bottom: 0.12rem;
+      border-radius: 100%; }
+  .section .cont {
+    text-align: center;
+    display: flex;
+    background: #fff; }
+    .section .cont dl {
+      flex: 1;
+      padding-top: 0.12rem; }
+      .section .cont dl i {
+        width: 0.55rem;
+        height: 0.55rem;
+        line-height: 0.55rem;
+        font-size: 0.38rem;
+        border-radius: 100%;
+        margin-bottom: 0.08rem;
+        color: #fff; }
+      .section .cont dl dd {
+        font-size: 0.14rem;
+        padding-bottom: 0.15rem; }
+      .section .cont dl .fa-user-md {
+        background: #fa6d51; }
+      .section .cont dl .fa-clock-o {
+        background: #50c0e8; }
+  .section .h3 {
+    line-height: 0.28rem;
+    text-indent: 0.1rem; }
+  .section ul li {
+    line-height: 0.42rem;
+    background: #fff;
+    border-bottom: 0.01rem solid #ccc;
+    text-indent: 0.1rem;
+    font-size: 0.13rem;
+    position: relative; }
+    .section ul li span {
+      position: absolute;
+      right: 0.1rem;
+      top: 0.02rem; }
+      .section ul li span .fa-circle {
+        font-size: 0.12rem;
+        color: #fe4a4b; }
+      .section ul li span .fa-angle-right {
+        font-size: 0.14rem; }
+
+footer {
+  width: 100%;
+  height: 0.43rem;
+  line-height: 0.43rem;
+  background: #fff; }
+  footer ul {
+    display: flex; }
+    footer ul .hourglass {
+      background: #38bb9b;
+      color: #fff; }
+    footer ul li {
+      flex: 1;
+      text-align: center;
+      color: #38bb9b; }
+      footer ul li span {
+        margin-left: 0.1rem;
+        font-size: 0.14rem; }
+      footer ul li .fa-hourglass-start,
+      footer ul li .fa-id-card-o {
+        font-size: 0.2rem; }
+
+/*# sourceMappingURL=style.css.map */

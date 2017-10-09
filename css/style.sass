@@ -1,0 +1,130 @@
+body
+  font-size: .12rem
+  display: flex
+  flex-direction: column
+  justify-content: center
+  background: #eeeeee
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  box-sizing: border-box
+
+.header
+  width: 100%
+  line-height: .37rem
+  background: #fff
+  font-size: .15rem
+  ul
+    position: relative
+    .headline
+      text-align: center
+      color: #474747
+    .back
+      position: absolute
+      left: 0
+      top: 0
+    li
+      .fa-angle-left
+        margin-left: 0.08rem
+        color: #45bfa5
+      & > span
+        margin-left: 0.05rem
+        color: #45bfa5
+.section
+  flex: 1
+  overflow-y: scroll
+  padding-bottom: 0.15rem
+  .main
+    width: 100%
+    height: 1.63rem
+    background: url(../images/img2.jpg)
+    background-size: 100% auto
+    text-align: center
+    color: #fff
+    position: relative
+    .thumbs
+      position: absolute
+      left: .13rem
+      top: 0.07rem
+      .fa-thumbs-o-up
+        font-size: .18rem
+        margin-right: .06rem
+    .fa-indent
+      position: absolute
+      right: .15rem
+      top: .1rem
+      font-size: .18rem
+    h3
+      margin-bottom: .08rem
+      font-size: .14rem
+    & > img
+      width: .78rem
+      height: .78rem
+      margin-top: .15rem
+      margin-bottom: .12rem
+      border-radius: 100%
+
+  .cont
+    text-align: center
+    display: flex
+    background: #fff
+    dl
+      flex: 1
+      padding-top: .12rem
+      i
+        width: .55rem
+        height: .55rem
+        line-height: .55rem
+        font-size: .38rem
+        border-radius: 100%
+        margin-bottom: 0.08rem
+        color: #fff
+      dd
+        font-size: 0.14rem
+        padding-bottom: .15rem
+      .fa-user-md
+        background: #fa6d51
+      .fa-clock-o
+        background: #50c0e8
+
+  .h3
+    line-height: 0.28rem
+    text-indent: 0.1rem
+  ul
+    li
+      line-height: .42rem
+      background: #fff
+      border-bottom: 0.01rem solid #ccc
+      text-indent: 0.1rem
+      font-size: 0.13rem
+      position: relative
+      span
+        position: absolute
+        right: .1rem
+        top: .02rem
+        .fa-circle
+          font-size: .12rem
+          color: #fe4a4b
+        .fa-angle-right
+          font-size: .14rem
+footer
+  width: 100%
+  height: .43rem
+  line-height: .43rem
+  background: #fff
+  ul
+    display: flex
+    .hourglass
+      background: #38bb9b
+      color: #fff
+    li
+      flex: 1
+      text-align: center
+      color: #38bb9b
+      span
+        margin-left: .1rem
+        font-size: .14rem
+      .fa-hourglass-start,
+      .fa-id-card-o
+        font-size: .2rem
